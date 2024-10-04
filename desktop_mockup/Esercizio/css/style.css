@@ -1,0 +1,213 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    background-color: #393d41;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+nav img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 40px;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3 ;
+    line-height: 1.5;
+    position: relative;
+    height: 380px;
+    background-image: url('/Esercizio/images/banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+header h1, header p, header button {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2; 
+    align-items: center;
+}
+
+header h1 {
+    padding-top:20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #25a2c3;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #707070;
+    margin: 20px 10px;
+}
+
+header button {
+    background-color:#f04c2f ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+main {
+    background-color: white;
+}
+
+main section {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #25a2c3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #707070;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#testimonial {
+    background-color:#e22d0e;
+    text-align: center;
+}
+
+#testimonial h2 {
+    color: white;
+}
+
+#testimonial p {
+    font-size: 80%;
+    color: white;
+    margin: 0;
+}
+
+#testimonial p:first-child {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+#testimonial p:last-child {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 60%;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #dee1e3;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #25a2c3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card p {
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p i {
+    margin-right: 10px; 
+    font-size: 1.2rem; 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid white;
+}
+
+footer p:last-child {
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 480px; 
+    margin: 0 auto; 
+    padding: 0 15px;
+    box-sizing: border-box;
+}
