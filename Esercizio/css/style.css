@@ -3,7 +3,8 @@ body {
     font-size: 1.2rem;
     background-color: #393d41;
     line-height: 1.65;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -11,7 +12,6 @@ nav {
 }
 
 nav img {
-
     display: block;
     margin: 0 auto;
     width: 30%;
@@ -131,6 +131,8 @@ section img {
     padding: 20px;
     border: 1px solid #dee1e3;
     border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card img {
@@ -193,3 +195,9 @@ footer p:last-child {
 }
 
 
+.container {
+    max-width: 480px; 
+    margin: 0 auto; 
+    padding: 0 15px;
+    box-sizing: border-box;
+}
