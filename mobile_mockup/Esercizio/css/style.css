@@ -24,7 +24,7 @@ header {
     line-height: 1.5;
     position: relative;
     height: 380px;
-    background-image: url('/Esercizio/images/banner.jpg');
+    background-image: url('/mobile_mockup/Esercizio/images/banner.jpg');
     background-size: cover; 
     background-position: center; 
     text-align: center;
@@ -93,31 +93,37 @@ section img {
 }
 
 #testimonial {
-    background-color:#e22d0e;
+    background-color: #e22d0e;
+    color: white;
+    padding: 40px 20px;
     text-align: center;
 }
 
 #testimonial h2 {
     color: white;
-}
-
-#testimonial p {
-    font-size: 80%;
-    color: white;
-    margin: 0;
-}
-
-#testimonial p:first-child {
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-
-
-#testimonial p:last-child {
-    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
     margin-bottom: 20px;
+}
+
+#testimonial p:first-of-type {
     color: white;
-    font-size: 60%;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+#testimonial p:not(:first-of-type) {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#testimonial p:last-of-type {
+    color: white;
+    font-weight: bold;
 }
 
 #cards {
