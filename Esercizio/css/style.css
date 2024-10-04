@@ -161,11 +161,11 @@ footer {
     background-color: #25a2c3;
     color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
 footer h2 {
     padding-bottom: 20px;
-    padding-top: 20px;
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
@@ -175,6 +175,15 @@ footer p {
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p i {
+    margin-right: 10px; 
+    font-size: 1.2rem; 
 }
 
 footer a {
@@ -182,9 +191,11 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 footer hr {
-    align-items: center;
-    display: block;
     width: 50%;
     margin: 20px auto;
     border: 1px solid white;
@@ -193,7 +204,6 @@ footer hr {
 footer p:last-child {
     padding-bottom: 20px;
 }
-
 
 .container {
     max-width: 480px; 
